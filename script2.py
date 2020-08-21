@@ -5,7 +5,7 @@ from time import sleep
 from os import system, name
 #from prettytable import PrettyTable
 
-minuti = 2 # tempo di aggiornamento
+minuti = 15 # tempo di aggiornamento
 #58f3d6d388msh17839452635e3bcp114681jsn2d383f4a6859
 
 MSFTMIval = float(184.5575)
@@ -84,7 +84,7 @@ def main():
             #print('{:<50}{:<15}{:<15}'.format('Vanguard FTSE All-World UCITS ETF ',' VGWL.F',price6))
             print(colors.YELLOW + '------------------------------------------------------------------------', colors.ENDC)
 
-            sleep(450 * minuti)
+            sleep(30 * minuti)
             clear()
 if __name__ == "__main__":
     main()
